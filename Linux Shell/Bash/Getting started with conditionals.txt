@@ -1,0 +1,7 @@
+read command
+if [ $command == "y" ] || [ $command == "Y" ]
+then
+    echo "YES"
+else
+    echo "NO"
+fi
